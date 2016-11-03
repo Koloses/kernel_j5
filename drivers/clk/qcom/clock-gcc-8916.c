@@ -555,7 +555,8 @@ static struct clk_freq_tbl ftbl_gcc_camss_vfe0_clk[] = {
  	F( 475000000,      gpll2,   2,	  0,	0),
  	F( 550000000,      gpll2,   2,	  0,	0),
  	F( 650000000,      gpll2,   2,	  0,	0),
-        F( 720000000,      gpll2,   2,    0,    0),
+        F( 720000000,      gpll2,   2,    0,    0), 
+	F( 750000000,      gpll2,   2,    0,    0),
 	F_END
 };
 
@@ -606,6 +607,7 @@ static struct clk_freq_tbl ftbl_gcc_oxili_gfx3d_clk[] = {
  	F( 550000000,      gpll2,   2,	  0,	0),
  	F( 650000000,      gpll2,   2,	  0,	0),
         F( 720000000,      gpll2,   2,    0,    0),
+	F( 750000000,      gpll2,   2,    0,    0),
 	F_END
 };
 
