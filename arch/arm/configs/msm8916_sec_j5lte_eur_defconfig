@@ -150,6 +150,18 @@ CONFIG_TIGHT_PGDAT_BALANCE=y
 CONFIG_VNSWAP=y
 CONFIG_SWAP_ENABLE_READAHEAD=n
 
+#
+# Floating point emulation
+#
+
+#
+# At least one emulation must be selected
+#
+CONFIG_VFP=y
+CONFIG_VFPv3=y
+CONFIG_NEON=y
+CONFIG_KERNEL_MODE_NEON=y
+
 #EPDG
 CONFIG_NET_CORE=y
 CONFIG_NET_SCH_PRIO=y
